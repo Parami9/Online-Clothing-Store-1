@@ -11,7 +11,7 @@ export const userMenu = [
   },
   
   {
-    name: "Product ",
+    name: "Product List ",
     path: "/Pro",
     icon: "fa-solid fa-notes-medical",
   },
