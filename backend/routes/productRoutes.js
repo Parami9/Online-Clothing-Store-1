@@ -8,7 +8,7 @@ router.post("/addPro", productController.createProduct);
 // Retrieve all production stock
 router.get("/getPro", productController.getAllProducts);
 
-// Retrieve a single stock by ID hiii
+// Retrieve a single stock by ID 
 router.get("/getPro/:id", productController.getProductById);
 
 // Update a production stock by ID
