@@ -25,6 +25,7 @@ const Layout = ({ children }) => {
   }, []);
 
   // logout function
+  //this one
   const handleLogout = () => {
     localStorage.clear();
     message.success("Logout Successfully");
