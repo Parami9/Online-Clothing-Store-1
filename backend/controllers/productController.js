@@ -11,7 +11,7 @@ exports.createProduct = async (req, res) => {
   }
 };
 
-// Retrieve all production stocks
+// Retrieve all production stocks i did this
 exports.getAllProducts = async (req, res) => {
   try {
     const products = await Product.find();
